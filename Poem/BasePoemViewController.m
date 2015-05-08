@@ -61,18 +61,25 @@ static NSUInteger tapCount = 0;
     fadeInAnimation.fillMode = kCAFillModeForwards;
     
     CATextLayer* newTextLayer = [CATextLayer layer];
-    newTextLayer.string = self.poem.attributedLines[tapCount];
+    
+    NSAttributedString* aString = self.poem.attributedLines[tapCount];
+    newTextLayer.string = aString;
+    
+    
     
     newTextLayer.opacity = 1.0;
     
-    newTextLayer.frame = CGRectMake(10 , tapCount * 100, 200, 200);
+    CGSize size = [aString size];
+    
+    newTextLayer.frame = CGRectMake(10 , tapCount * 100, size.width, size.height);
     
     
     [newTextLayer addAnimation:fadeInAnimation forKey:nil];
 
     [self.view.layer addSublayer:newTextLayer];
     
-    
+    NSLog(@"Tapped our text view %@", aString.string);
+
     tapCount++;
 
 }
