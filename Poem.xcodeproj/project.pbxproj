@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0AE5001AFD2F1400828785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE4FF1AFD2F1400828785 /* main.m */; };
+		1B0AE5031AFD2F1400828785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE5021AFD2F1400828785 /* AppDelegate.m */; };
+		1B0AE5061AFD2F1400828785 /* BasePoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE5051AFD2F1400828785 /* BasePoemViewController.m */; };
+		1B0AE5091AFD2F1400828785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0AE5071AFD2F1400828785 /* Main.storyboard */; };
+		1B0AE50B1AFD2F1400828785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0AE50A1AFD2F1400828785 /* Images.xcassets */; };
+		1B0AE50E1AFD2F1400828785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B0AE50C1AFD2F1400828785 /* LaunchScreen.xib */; };
+		1B0AE51A1AFD2F1400828785 /* PoemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE5191AFD2F1400828785 /* PoemTests.m */; };
+		1B0AE5251AFD2F4F00828785 /* PoemNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE5241AFD2F4F00828785 /* PoemNavigationController.m */; };
+		1B0AE5281AFD329500828785 /* Poem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0AE5271AFD329500828785 /* Poem.m */; };
+		1B0AE52E1AFD407300828785 /* Poem1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B0AE52D1AFD407300828785 /* Poem1.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0AE5141AFD2F1400828785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0AE4F21AFD2F1400828785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0AE4F91AFD2F1400828785;
+			remoteInfo = Poem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0AE4FA1AFD2F1400828785 /* Poem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0AE4FE1AFD2F1400828785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0AE4FF1AFD2F1400828785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B0AE5011AFD2F1400828785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B0AE5021AFD2F1400828785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B0AE5041AFD2F1400828785 /* BasePoemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePoemViewController.h; sourceTree = "<group>"; };
+		1B0AE5051AFD2F1400828785 /* BasePoemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePoemViewController.m; sourceTree = "<group>"; };
+		1B0AE5081AFD2F1400828785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B0AE50A1AFD2F1400828785 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B0AE50D1AFD2F1400828785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B0AE5131AFD2F1400828785 /* PoemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0AE5181AFD2F1400828785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0AE5191AFD2F1400828785 /* PoemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoemTests.m; sourceTree = "<group>"; };
+		1B0AE5231AFD2F4F00828785 /* PoemNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemNavigationController.h; sourceTree = "<group>"; };
+		1B0AE5241AFD2F4F00828785 /* PoemNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemNavigationController.m; sourceTree = "<group>"; };
+		1B0AE5261AFD329500828785 /* Poem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poem.h; sourceTree = "<group>"; };
+		1B0AE5271AFD329500828785 /* Poem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poem.m; sourceTree = "<group>"; };
+		1B0AE52D1AFD407300828785 /* Poem1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Poem1.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0AE4F71AFD2F1400828785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0AE5101AFD2F1400828785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0AE4F11AFD2F1400828785 = {
+			isa = PBXGroup;
+			children = (
+				1B0AE4FC1AFD2F1400828785 /* Poem */,
+				1B0AE5161AFD2F1400828785 /* PoemTests */,
+				1B0AE4FB1AFD2F1400828785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0AE4FB1AFD2F1400828785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE4FA1AFD2F1400828785 /* Poem.app */,
+				1B0AE5131AFD2F1400828785 /* PoemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0AE4FC1AFD2F1400828785 /* Poem */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE5011AFD2F1400828785 /* AppDelegate.h */,
+				1B0AE5021AFD2F1400828785 /* AppDelegate.m */,
+				1B0AE5231AFD2F4F00828785 /* PoemNavigationController.h */,
+				1B0AE5241AFD2F4F00828785 /* PoemNavigationController.m */,
+				1B0AE5041AFD2F1400828785 /* BasePoemViewController.h */,
+				1B0AE5051AFD2F1400828785 /* BasePoemViewController.m */,
+				1B0AE5261AFD329500828785 /* Poem.h */,
+				1B0AE5271AFD329500828785 /* Poem.m */,
+				1B0AE52C1AFD404800828785 /* Poems */,
+				1B0AE5071AFD2F1400828785 /* Main.storyboard */,
+				1B0AE50A1AFD2F1400828785 /* Images.xcassets */,
+				1B0AE50C1AFD2F1400828785 /* LaunchScreen.xib */,
+				1B0AE4FD1AFD2F1400828785 /* Supporting Files */,
+			);
+			path = Poem;
+			sourceTree = "<group>";
+		};
+		1B0AE4FD1AFD2F1400828785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE4FE1AFD2F1400828785 /* Info.plist */,
+				1B0AE4FF1AFD2F1400828785 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B0AE5161AFD2F1400828785 /* PoemTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE5191AFD2F1400828785 /* PoemTests.m */,
+				1B0AE5171AFD2F1400828785 /* Supporting Files */,
+			);
+			path = PoemTests;
+			sourceTree = "<group>";
+		};
+		1B0AE5171AFD2F1400828785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE5181AFD2F1400828785 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B0AE52C1AFD404800828785 /* Poems */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE52D1AFD407300828785 /* Poem1.rtf */,
+			);
+			name = Poems;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0AE4F91AFD2F1400828785 /* Poem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0AE51D1AFD2F1400828785 /* Build configuration list for PBXNativeTarget "Poem" */;
+			buildPhases = (
+				1B0AE4F61AFD2F1400828785 /* Sources */,
+				1B0AE4F71AFD2F1400828785 /* Frameworks */,
+				1B0AE4F81AFD2F1400828785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poem;
+			productName = Poem;
+			productReference = 1B0AE4FA1AFD2F1400828785 /* Poem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B0AE5121AFD2F1400828785 /* PoemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0AE5201AFD2F1400828785 /* Build configuration list for PBXNativeTarget "PoemTests" */;
+			buildPhases = (
+				1B0AE50F1AFD2F1400828785 /* Sources */,
+				1B0AE5101AFD2F1400828785 /* Frameworks */,
+				1B0AE5111AFD2F1400828785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0AE5151AFD2F1400828785 /* PBXTargetDependency */,
+			);
+			name = PoemTests;
+			productName = PoemTests;
+			productReference = 1B0AE5131AFD2F1400828785 /* PoemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0AE4F21AFD2F1400828785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Larissa;
+				TargetAttributes = {
+					1B0AE4F91AFD2F1400828785 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1B0AE5121AFD2F1400828785 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1B0AE4F91AFD2F1400828785;
+					};
+				};
+			};
+			buildConfigurationList = 1B0AE4F51AFD2F1400828785 /* Build configuration list for PBXProject "Poem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0AE4F11AFD2F1400828785;
+			productRefGroup = 1B0AE4FB1AFD2F1400828785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0AE4F91AFD2F1400828785 /* Poem */,
+				1B0AE5121AFD2F1400828785 /* PoemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0AE4F81AFD2F1400828785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0AE5091AFD2F1400828785 /* Main.storyboard in Resources */,
+				1B0AE52E1AFD407300828785 /* Poem1.rtf in Resources */,
+				1B0AE50E1AFD2F1400828785 /* LaunchScreen.xib in Resources */,
+				1B0AE50B1AFD2F1400828785 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0AE5111AFD2F1400828785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0AE4F61AFD2F1400828785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0AE5281AFD329500828785 /* Poem.m in Sources */,
+				1B0AE5061AFD2F1400828785 /* BasePoemViewController.m in Sources */,
+				1B0AE5031AFD2F1400828785 /* AppDelegate.m in Sources */,
+				1B0AE5251AFD2F4F00828785 /* PoemNavigationController.m in Sources */,
+				1B0AE5001AFD2F1400828785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0AE50F1AFD2F1400828785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0AE51A1AFD2F1400828785 /* PoemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0AE5151AFD2F1400828785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0AE4F91AFD2F1400828785 /* Poem */;
+			targetProxy = 1B0AE5141AFD2F1400828785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B0AE5071AFD2F1400828785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0AE5081AFD2F1400828785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B0AE50C1AFD2F1400828785 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0AE50D1AFD2F1400828785 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B0AE51B1AFD2F1400828785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B0AE51C1AFD2F1400828785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0AE51E1AFD2F1400828785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Poem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B0AE51F1AFD2F1400828785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Poem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B0AE5211AFD2F1400828785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poem.app/Poem";
+			};
+			name = Debug;
+		};
+		1B0AE5221AFD2F1400828785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poem.app/Poem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0AE4F51AFD2F1400828785 /* Build configuration list for PBXProject "Poem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0AE51B1AFD2F1400828785 /* Debug */,
+				1B0AE51C1AFD2F1400828785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0AE51D1AFD2F1400828785 /* Build configuration list for PBXNativeTarget "Poem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0AE51E1AFD2F1400828785 /* Debug */,
+				1B0AE51F1AFD2F1400828785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B0AE5201AFD2F1400828785 /* Build configuration list for PBXNativeTarget "PoemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0AE5211AFD2F1400828785 /* Debug */,
+				1B0AE5221AFD2F1400828785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B0AE4F21AFD2F1400828785 /* Project object */;
+}
